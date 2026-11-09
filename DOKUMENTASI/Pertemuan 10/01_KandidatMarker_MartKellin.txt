@@ -1,0 +1,44 @@
+===========================================================================
+01_KandidatMarker_MartKellin
+===========================================================================
+
+1. TABEL PERBANDINGAN KANDIDAT MARKER
+---------------------------------------------------------------------------
+Parameter Evaluasi    | Kandidat 1: Marker_Bumi  | Kandidat 2: Marker_Bulan
+                      | (Foto planet Bumi)       | (Foto bulan purnama)
+---------------------------------------------------------------------------
+Kontras Warna         | Tinggi                   | Sedang
+Kerapatan Fitur       | Tinggi                   | Sedang
+Pola Berulang         | Tidak ada pola dominan   | Ada kawah yang agak mirip
+Keunikan              | Unik (awan dan benua)    | Cukup unik
+Ketajaman & Ukuran    | Tajam, 485 x 514 piksel  | Tajam, 512 x 512 piksel
+Stabilitas Tracking   | Diperkirakan lebih       | Cukup stabil, tekstur
+                      | stabil di berbagai sudut | permukaan cenderung seragam
+---------------------------------------------------------------------------
+Catatan: Nilai berdasarkan pengamatan visual terhadap kedua gambar
+(stabilitas tracking berupa perkiraan, belum diuji pada perangkat
+nyata). Uji tracking dilakukan pada Pertemuan 11.
+
+
+2. ALASAN PEMILIHAN MARKER FINAL
+---------------------------------------------------------------------------
+Marker Final yang dipilih adalah Kandidat 1 (Marker_Bumi) dengan
+pertimbangan teknis sebagai berikut:
+
+1. Detail Fitur yang Kaya:
+   Memiliki detail visual berupa pola awan, garis daratan, dan variasi
+   warna laut yang tersebar di area gambar, sehingga memudahkan
+   algoritma image tracking untuk mendeteksi dan melacak gambar.
+
+2. Kontras & Keunikan Tinggi:
+   Perbedaan tegas antara laut biru gelap, awan putih, dan latar hitam
+   membuat komposisi gambar unik dan tidak memiliki pola berulang yang
+   dapat membingungkan sistem saat mencocokkan gambar dengan library.
+
+3. Stabilitas Tracking:
+   Dibandingkan Marker_Bulan yang didominasi warna abu-abu seragam dan
+   tekstur kawah yang mirip, Marker_Bumi diperkirakan menghasilkan
+   tracking yang lebih stabil saat kamera digerakkan. Marker sebaiknya
+   dicetak pada kertas matte dan digunakan pada ruangan dengan
+   pencahayaan cukup.
+===========================================================================
