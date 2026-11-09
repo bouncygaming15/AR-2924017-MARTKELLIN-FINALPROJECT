@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: RefImageLibrary_FinalProject
+  m_EditorClassIdentifier: Unity.XR.ARSubsystems::UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+  m_GuidLow: 5361913517519642875
+  m_GuidHigh: 8934677932719901354
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4633384276336743176
+      m_GuidHigh: 3197244784974125229
+    m_SerializedTextureGuid:
+      m_GuidLow: 10472258968955077085
+      m_GuidHigh: 15784411813199724137
+    m_Size: {x: 0.15, y: 0.15896907}
+    m_SpecifySize: 1
+    m_Name: Marker_Bumi
+    m_Texture: {fileID: 0}
